@@ -1,0 +1,149 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* app classes */
+.headerContainer {
+  width: 100%;
+  height: 40px;
+  background-color: chocolate;
+}
+
+.header {
+  float: left;
+}
+
+.mainContainer {
+  margin-top: 40px;
+}
+
+.listOdd {
+  background-color: #98AFC7;
+  width: 700px;
+}
+
+.listEven {
+  background-color: #E5E4E2;
+  width: 700px;
+}
+
+.listdiv {
+  display: table-cell;
+  padding: 5px;
+  width: 200px;
+}
+
+.footer {
+  position: absolute;
+  bottom:0;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #000;
+  color:#FFF;
+  padding-top: 10px;
+}
+
+html {
+  background: url(assets/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Courier New', Courier, monospace";
+}
+
+.container {
+  margin-left: 30px;
+}
+
+.tableheader {
+  background-color:#2d3e50;
+  color: #FFF;
+  font-weight: 700;
+  width: 700px;
+}
+
+.tablecheckoutheader {
+  background-color:#2d3e50;
+  color: #FFF;
+  font-weight: 700;
+  width: 700px;
+}
+
+.checkoutOdd {
+  padding: 20px;
+  background-color: #98AFC7;
+  width: 660px;
+}
+
+.checkoutEven {
+  padding: 20px;
+  background-color: #E5E4E2;
+  width: 660px;
+}
+
+.button {
+  padding: 5px;
+  color: #FFF;
+  background-color: #303f9f;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.hrbar {
+  width: 700px;
+  background-color: #282c34;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 2px;
+}
+
+.buttonContainer {
+  width: 800px;
+  margin-top: 40px;
+}
+
+.cart {
+  width: 100px;
+  height: 30px;
+  border-radius: 25px;
+}
